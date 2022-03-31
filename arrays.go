@@ -27,7 +27,7 @@ func main() {
 	
 	var newArray [10]string
 
-	for i, _ := range array {
+	for i := range array {
 		newArray[i] = array[i]
 	}
 
